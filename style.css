@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Work Sans';
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #121212;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+h1{
+    letter-spacing: -3px;
+    font-size: 72px;
+    font-weight: 600;
+    width: 60%;
+    margin-left:250px;
+    margin-top:340px;
+}
+h2{
+    letter-spacing: -2px;
+    font-size: 64px;
+    font-weight: 600;
+}
+h3{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -1px;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+.get-in-touch-btn{
+    background-color: #523ECF;
+}
+.see-my-work-btn{
+    background-color: #121212;
+    border: 3px solid #523ECF;
+    color:#523ECF;
+}
+.home-buttons{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  @media screen and (max-width: 1050px) {
+    .menu,
+    .home-icons{
+        display: none;
+    }
+    .logo{
+        margin-top: 30px;
+        font-size: 200%;
+        margin-left: 20px;
+    }
+    h1{
+    margin: 30px;
+    margin-top:15rem;
+    width: 520px;
+    font-size: 3.5rem;
+    }
+    .p-home{
+        margin: 2rem;
+        width: 30rem;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    button{
+        border: none;
+        border-radius: 35px;
+        height: 70px;
+        padding: 10px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        margin: 20px;
+        flex-direction: row;
+        padding-left: 15px;
+        cursor: pointer;
+        width: 12rem;
+    }
+  }
