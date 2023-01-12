@@ -29,10 +29,72 @@ h3{
     display: flex;
     align-items: center;
 }
+.p-home{
+    font-weight: 300;
+    font-size: 16px;
+    width:30%;
+    margin-top:10px;
+    margin-left:250px;
+}
+.p-sub{
+    color: #523ECF;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+.icon{
+    width:36px;
+    padding:10px;
+    margin:12px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: space-between;
+    margin-right:160px;
+}
 a{
     text-decoration: none;
     color: white;
     font-weight: 300;
+}
+.active{
+    font-weight: 400;
+}
+#home{
+    height:100vh;
+    border: 1px solid #121212;
+}
+button{
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 20px;
+    flex-direction: row;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.btn-icon{
+    padding: 5px;
+    margin-left:5px ;
 }
 .get-in-touch-btn{
     background-color: #523ECF;
@@ -43,50 +105,542 @@ a{
     color:#523ECF;
 }
 .home-buttons{
-    border: 1px solid red;
+    height:100px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    width:25%;
+    margin-left: 250px;
+    margin-top:100px;
 }
+.home-icons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left:3rem;
+    top:24rem;
+}
+.p-sub,
+h2{
+    margin-left: 250px;
+}
+.skills-container{
+    background-color: #202020;
+    border-radius: 20px;
+    width: 370px;
+    height: 320px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.skills-header,
+.work-header{
+    margin-top:10px;
+    font-size: 32px;
+    letter-spacing: -2px;
+}
+.skills-p,
+.work-p{
+    font-weight: 300;
+    margin-top:24px;
+}
+.skills-containers{
+    margin-top:200px;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    gap:150px;
+}
+.logo{
+    margin-left: 160px;
+}
+#skills{
+    height: 90vh;
+}
+#work{
+    height: 140vh;
+}
+.work-containers{
+    margin-top:200px;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    gap:100px;
+    flex-wrap: wrap;
+}
+.work-container{
+    background-color: #121212;
+    border-radius: 20px;
+    border: 1px solid #303030;
+    width: 670px;
+    height: 340px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-size: cover;
+}
+.work-category-webdesign{
+    font-weight: 300;
+    color: #BDFF00;
+    font-size: 15px;
+}
+.work-category-uiux{
+    font-weight: 300;
+    color: #EA2690;
+    font-size: 15px;
+}
+.work-category-graphicdesign{
+    font-weight: 300;
+    color: #1AF096;
+    font-size: 15px;
+}
+.work-p{
+    width: 48%;
+    margin-top: 12px;
+}
+.work-btn{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #523ECF;
+    color: white;
+}
+.work-btn:hover{
+    background-color: rgb(102, 86, 207);
+}
+.work-btn img{
+    margin-left:5px;
+}
+#contact{
+    height: 80vh;
+}
+footer{
+    background-color: #523ECF;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70%;
+}
+label{
+    color: #a2a2a2;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #303030;
+    background-color: #121212;
+    width: 600px;
+    font-size: 16px;
+    color: white;
+}
+input:focus{
+    border: none;
+    background-color: #121212;
+    width: 600px; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:120px;
+}
+.contact-ways{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 200px;
+}
+.contact-ways p{
+    margin: 0;
+}
+.other-contact p{
+    margin: 0;
+    padding: 10px;
+}
+#ampersand{
+    background-image: url(img/ampersandbg.png);
+}
+#ikar{
+    background-image: url(img/ikarbg.png);
+}
+#elwalczako{
+    background-image: url(img/elwalczakobg.png);
+}
+#company{
+    background-image: url(img/companybg.png);
+}
+nav img{
+    width:30px;
+}
+.submit{
+    background-color: #523ECF;
+    padding:1rem;
+    width: 8rem;
+    justify-content: center;
+}
+.hamb{
+    width:36px;
+    height: 36px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    right:10%;
+    top:40%;
+}
+.hamb-line{
+    width:100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+/*Scrollbar properties*/
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+  }
+
+
+
+  @media screen and (max-width: 1440px) {
+    #work{
+        height: fit-content;
+    }
+    footer{
+        font-size: 0.8rem;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    h1,
+    .p-home{
+        margin-left: 200px;
+    }
+    .skills-containers{
+        gap: 5%;
+    }
+  }
   
   @media screen and (max-width: 1050px) {
-    .menu,
     .home-icons{
         display: none;
     }
     .logo{
         margin-top: 30px;
-        font-size: 200%;
+        font-size: 1.2rem;
+        margin-left: 20px;
+    }
+    h1{
+    margin: 10%;
+    margin-top: 10rem;
+    width: 70%;
+    font-size: 4rem;
+    }
+    h2{
+        font-size: 3rem;
+        margin-left: 10%;
+    }
+    .p-sub{
+        font-size: 1rem;
+        margin-top: 8rem;
+        margin-left: 10%;
+    }
+    .p-home{
+        margin-left: 10%;
+        width: 60%;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    button{
+        border-radius: 2rem;
+        height: 3.5rem;
+        font-size: 1.2rem;
+    }
+    .skills-container{
+        width: 60%;
+        min-height: 20rem;
+        height: fit-content;
+
+    }
+    .skills-containers{
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+    .contact-ways{
+        flex-direction: column;
+    }
+    #skills{
+        height: fit-content;
+    }
+    #work{
+        height: fit-content;
+    }
+    #contact{
+        height: fit-content;
+        margin-bottom: 100px;
+    }
+    .work-container{
+        background-color: #121212;
+        border-radius: 1rem;
+        border: 1px solid #303030;
+        width: 23rem;
+        height: 25rem;
+        box-sizing: border-box;
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    .work-p{
+        width: 80%;
+        margin-top: 0.4rem;
+        height: 60%;
+    }
+    .work-btn{
+        font-weight: 400;
+        font-size: 1rem;
+        background-color: #523ECF;
+        color: white;
+    }
+    label{
+        color: #a2a2a2;
+        font-weight: 300;
+        letter-spacing: 5px;
+        font-size: 1rem;
+    }
+    input{
+        border: none;
+        border-bottom: 1px solid #303030;
+        background-color: #121212;
+        width: 100%;
+        font-size: 1rem;
+        color: white;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-buttons{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        height: 15rem;
+    }
+    footer{
+        width: 100%;
+        gap:0;
+        font-size: 0.7rem;
+        justify-content: space-around;
+    }
+    h3{
+        font-size: 0.8rem;
+    }
+  }
+  @media screen and (max-width: 780px) {
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #000000c3;
+        top:0;
+        font-size: xx-large;
+    }
+    .hamb{
+        display: flex;
+    }
+    .skills-container{
+        width: 60%;
+    }
+    h1{
+        width: 80%;
+        font-size: 4rem;
+        margin-left: 15%;
+    }
+    .p-home{
+        width: 60%;
+        margin-left: 15%;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h2,
+    .p-sub{
+        margin-left: 10%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .home-icons{
+        display: none;
+    }
+    .logo{
+        margin-top: 30px;
+        font-size: 1.2rem;
         margin-left: 20px;
     }
     h1{
     margin: 30px;
-    margin-top:15rem;
-    width: 520px;
-    font-size: 3.5rem;
+    margin-top: 10rem;
+    width: 22rem;
+    font-size: 2.6rem;
+    }
+    h2{
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+    .p-sub{
+        font-size: 1rem;
+        margin-top: 8rem;
+        margin-left: 1rem;
     }
     .p-home{
         margin: 2rem;
-        width: 30rem;
-        font-size: 24px;
+        width: 20rem;
+        font-size: 1rem;
         font-weight: 300;
     }
     button{
-        border: none;
-        border-radius: 35px;
-        height: 70px;
-        padding: 10px;
-        font-size: 1.5rem;
-        font-weight: 600;
-        text-align: center;
-        display: flex;
+        border-radius: 2rem;
+        height: 3.5rem;
+        font-size: 1.2rem;
+    }
+    .skills-container{
+        width: 90%;
+        height: fit-content;
+    }
+    .skills-containers{
+        margin-top: 100px;
+        flex-direction: column;
         align-items: center;
+        gap: 5rem;
+    }
+    .contact-ways{
+        flex-direction: column;
+    }
+    #skills{
+        height: fit-content;
+    }
+    #work{
+        height: fit-content;
+    }
+    #contact{
+        height: fit-content;
+        margin-bottom: 100px;
+    }
+    .work-containers{
+        margin-top: 8rem;
+    }
+    .work-container{
+        background-color: #121212;
+        border-radius: 1rem;
+        border: 1px solid #303030;
+        width: 23rem;
+        height: 27rem;
         box-sizing: border-box;
-        margin: 20px;
-        flex-direction: row;
-        padding-left: 15px;
-        cursor: pointer;
-        width: 12rem;
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+        font-size: 1rem;
+    }
+    .work-p{
+        width: 80%;
+        margin-top: 0.4rem;
+        height: 60%;
+    }
+    .work-btn{
+        font-weight: 400;
+        font-size: 1rem;
+        background-color: #523ECF;
+        color: white;
+    }
+    label{
+        color: #a2a2a2;
+        font-weight: 300;
+        letter-spacing: 5px;
+        font-size: 1rem;
+    }
+    input{
+        border: none;
+        border-bottom: 1px solid #303030;
+        background-color: #121212;
+        width: 100%;
+        font-size: 1rem;
+        color: white;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-buttons{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        height: 15rem;
+    }
+    footer{
+        width: 100%;
+        gap:0;
+        font-size: 0.7rem;
+        justify-content: space-around;
+    }
+    h3{
+        font-size: 0.8rem;
+    }
+  }
+  @media screen and (max-width: 391px) {
+    #skills{
+        height: fit-content;
+    }
+    #work{
+        height: fit-content;
+    }
+    h1,
+    .p-home{
+        width:80%;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    #skills{
+        height: fit-content;
+    }
+    #work{
+        height: fit-content;
+        margin:0;
+    }
+    #contact{
+        margin-bottom: 200px;
+    }
+    h1,
+    .p-home{
+        width:80%;
     }
   }
